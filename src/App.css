@@ -2,7 +2,31 @@
   text-align: center;
 }
 
+.App-navbar {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+li{
+  margin-right: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+a{
+  text-decoration: none;
+}
+
 .App-logo {
+  
   height: 40vmin;
   pointer-events: none;
 }
@@ -28,6 +52,8 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +62,4 @@
     transform: rotate(360deg);
   }
 }
+

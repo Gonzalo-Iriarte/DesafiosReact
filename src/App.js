@@ -3,7 +3,16 @@ import './App.css';
 
 function App() {
   return (
+    
     <div className="App">
+      <nav className="App-navbar">
+            <ul>
+                <li><a href="pages/news.html">NEWS</a></li>
+                <li><a href="pages/tour.html">TOUR</a></li>
+                <li><a href="pages/merch.html">MERCH</a></li>
+                <li><a href="pages/music.html">MUSIC</a></li>            
+            </ul>
+        </nav>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +27,7 @@ function App() {
           Learn React
         </a>
       </header>
+      
     </div>
   );
 }
