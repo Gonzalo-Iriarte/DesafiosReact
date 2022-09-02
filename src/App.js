@@ -1,18 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar';
+import ItemListContainer from './ItemListContainer'
+
 
 function App() {
   return (
     
     <div className="App">
-      <nav className="App-navbar">
-            <ul>
-                <li><a href="pages/news.html">NEWS</a></li>
-                <li><a href="pages/tour.html">TOUR</a></li>
-                <li><a href="pages/merch.html">MERCH</a></li>
-                <li><a href="pages/music.html">MUSIC</a></li>            
-            </ul>
-        </nav>
+      <NavBar />
+      <ItemListContainer saludo="Lista contenedora de ITEMS"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
