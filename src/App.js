@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar';
 import ItemListContainer from './ItemListContainer'
+import ItemCount from './ItemCount'
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
     <div className="App">
       <NavBar />
       <ItemListContainer saludo="Lista contenedora de ITEMS"/>
+      <hr/>
+      <ItemCount stock={5} initial={1}/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
